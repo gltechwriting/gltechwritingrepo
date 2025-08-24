@@ -1,0 +1,3 @@
+This document is a walkthrough I wrote for my previous employer Matillion and describes how to connect to Spotify's API to extract data about a given artist. Matillion's Data Loader product is designed to extract data from one or more APIs, perform various transformations, and load the resulting modified data into a cloud warehouse. As such, this example could be applied to any cloud data provider the user could want to use. I have modified this example to remove anything specific to Matillion, but the process is still the same using any other API client such as Postman.
+
+# Using Spotify's API to Return an Artist's Top Tracks
