@@ -1,8 +1,0 @@
-The following document is an example of how I have written user journey focussed documentation. Documents such as this are written in anticipation of a specific customer need - they are not referring to the document for generic information, but usually to solve a specific issue they have encountered. As such the document is written with that goal in mind.
-
-
-# How to Change my Password
-
-If you have forgotten or otherwise wish to reset your password, please follow these steps:
-
-1. Navigate to....
