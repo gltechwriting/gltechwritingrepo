@@ -1,11 +1,73 @@
-This document is an example of a topic I wrote for my previous employer Evolutionizer. Their EVO-Cloud product uses a dashboard to host one or more modules that each perform a single specific function such as displaying a list, peforming financial calculations, and so on. By combining several modules on the dashboard, users can create large-scale and multi-faceted processes to achieve their goals. The aim of topics like this was to describe a module in isolation without referencing how to create or configure it, as that information was written in a dedicated configuration manual. The topic concludes with several examples of how the module would be configured and used within a dashboard to help give users the full context of its application. I have removed anything specific to Evolutionizer and kept the content generic.
+<!-- This document is an example of a topic I wrote for my previous employer Evolutionizer. Their EVO-Cloud product uses a dashboard to host one or more modules that each perform a single specific function such as displaying a list, peforming financial calculations, and so on. By combining several modules on the dashboard, users can create multi-stafe processes to achieve their goals. The aim of topics like this was to describe a module in isolation without referencing how to create or configure it, as that information was written in a dedicated configuration manual. The topic concludes with several examples of how the module would be configured and used within a dashboard to help give users the full context of its application. I have removed anything specific to Evolutionizer and kept the content generic.-->
 
-# Using the List Module
+# Using the Connector Module
 
-why??
+[screenshot]
 
-conceptual language
+## Overview
 
-include analogies
+The **Connector** module lets users program one or more API calls to a compatible external REST API. You can then use data returned by the Connector module throughout our product in other modules, such as a **List** module to display data or a **Transformation** module to perform one or more operations against the data. The Connector module is typically used with platforms such as Google to report traffic data to our product pages, though it can be used to do anything the target API will allow.
 
-links to other resources
+**Note:** Only users with the *Configurator* or *Administrator* role can configure the Connector module.
+
+## Compatibility
+
+The Connector is currently compatible with the following APIs:
+
+- Google (Analytics, Big Query, Sheets)
+- Facebook (AdInsights, Content Insights)
+- AWS S3
+- Microsoft SQL Server
+- Spotify
+
+## Using the Connector Module
+
+The Connector module has a wide range of uses and you will see one in every dashboard. While each Connector module is specific to the dashboard it is used in, you will interact with it the same way throughout our product. We will guide you through the interface and some common examples in this topic.
+
+### Interfance and Appearance
+
+The following screenshot shows the Connector module on a dashboard with all interface options active. The example below has been configured to return traffic statistics for our homepage from Google Analytics. As such, the module has only been configured to make a single GET request and there is no filtering applied.
+
+**Note:** If you do not have the *Configurator* or *Administrator* user roles, all of the fields described below will be read only.
+
+[screenshot]
+
+|Number|Item|Description|
+|---|---|---|
+|1|Module title|In this case, "Our Homepage Traffic Statistics"|
+|2|Search field|Enter a partial or complete string to filter data within the module.|
+|3|Method selector|Choose from GET, POST, and PUT.|
+|4|URL field|Enter the target address here.|
+|5|Parameters|Enter any required parameters here.|
+|6|Authorization|Enter any authentication details here.|
+|7|Headers|Enter header values here.|
+|8|Body|Enter body text here.||
+|9|Send button.|Click this to manually make a request to the API.|
+|10|Export|Select this to export the configuration file for this module. You can then import the configuration file using another Connector module to duplicate the configuration.|
+|11|Schedule|Use the drop-down menus to select a frequency. The module will run automatically according to the specified frequency.|
+
+## Connector Module Examples
+
+### Google Analytics
+
+The following example shows a Connector module configured to return site traffic data from Google Analytics. You can see the GET command and required parameters are defined to return data from the last seven days.
+
+We have also added two List modules to show detailed breakdowns of the day. One list module is organised by total volume while the second has been organised on a day-by-day analysis.
+
+[screenshot]
+
+Modules like this are very useful for reporting detailed, up-to-date information about traffic to our website. We are able to see in real-time the impact of product releases, news items, etc as they happen.
+
+### Spotify
+
+The following example shows a Connector module configured to return data about a specific artist from Spotify. Some of our users are involved in social media, so returning statistics about music artists is helpful when creating content for our audience.
+
+[screenshot]
+
+This specific example was created using the walkthrough described in the [Connector Module Worked Example](link), which uses the [Get Artist's Top Tracks](https://developer.spotify.com/documentation/web-api/reference/get-an-artists-top-tracks) endpoint.
+
+## Useful Information
+
+- You can configure the Connector module to automatically make API calls according to a defined schedule, or manually by users when required.
+- You can save and export a Connector module configuration for quick and easy re-use elsewhere.
+- You can include as many Connector modules on a dashboard as required. You should always be considerate of the potential impact on traffic and latency if you are making too many requests to the same target on the same dashboard.
