@@ -2,4 +2,4 @@
 
 # How to Create a Basic Website
 
-[WIP - Content in development]
+[WIP - Content in development, learning in progress]
