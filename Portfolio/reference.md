@@ -80,7 +80,7 @@ Returns temperature data for the pipeline the RTU is assigned to.
 |---|---|---|---|
 |`<rtuid>`|string|yes|The ID of the RTU.|
 |`<days>`|int|yes|Specify the required time period of the results you need in days, from 01 to 28. The present day is always 01.|
-|`<units>`|string|yes|Specify the units for the temperature data. C, for celcius, F for farenheit.|
+|`<units>`|string|yes|Specify the units for the temperature data. C, for Celcius, F for Farenheit.|
 
 **Response:**
 
@@ -121,9 +121,9 @@ A successful response will return temperature data in the following format:
 
 ### GET/Flow
 
-Returns pressure, velocity, and flow rate data for the pipeline the RTU is assigned to. You can request one or more properties. At least one property is required.
+Returns pressure, velocity, and flow rate data for the pipeline the RTU is assigned to. You can request additional properties of pressure and velocity.
 
-`<rtuid>/rest/v1/<days>/<press>/<vel>/<flow>`
+`<rtuid>/rest/v1/<days>/flow/<press>/<vel>/`
 
 **Parameters**
 
@@ -131,9 +131,8 @@ Returns pressure, velocity, and flow rate data for the pipeline the RTU is assig
 |---|---|---|---|
 |`<rtuid>`|string|yes|The ID of the RTU.|
 |`<days>`|int|yes|Specify the required time period of the results you need in days, from 01 to 28. Default: 01.|
-|`<press>`|string|no|Enter "press" to return pressure data. Enter "null" if not required. Values are bars.|
-|`<vel>`|string|no|Enter "vel" to return velocity data. Enter "null" if not required. Values are m/s.|
-|`<flow>`|string|no|Enter "flow" to return flow rate data. Enter "null" if not required. Values are m3/s.|
+|`<press>`|string|no|Enter "press" to return pressure data. Values are Bars.|
+|`<vel>`|string|no|Enter "vel" to return velocity data. Values are m/s.|
 
 **Response:**
 
