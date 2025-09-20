@@ -1,12 +1,14 @@
 <!-- I was inspired to write this essay after attending a talk by Susan O'Connor, a seasoned game writer and wise sage of the industry. She recommended that aspiring narrative designers demonstrate some insight into narrative design, so I have written this essay focussing on three computer games I feel have very strong and impactful narratives -->
 
+# [WIP]
+
 # The Artistry of Narrative Design
 
 I was given my first games console when I was 16. I had successfully passed my GCSEs and my father bought an N64 as a reward. Until that point in my young and sheltered life I had understood 'art' to be books, paintings, films, television shows and so on, and had considered computer games to be little more than arcade-style entertainment. Suffice it to say, my worldview would be changed and the debate of 'can video games be art?' would be forever settled as a resounding 'yes'.
 
-I'm going to discuss three computer games from across the ages that I feel are good examples of art in narrative design. What do I mean by art in narrative design? I don't believe there is one answer, but my answer is simply this: does the story and the game mechanics by which that story is relayed make you *feel* something? I don't mean joy at beating a boss or the satisfaction of a high score, I mean grief at a character's death, fear at turning that next corner, or vividly imagining yourself in your hero's plight. While a book or film might also make us feel those things, only a computer game puts those decisions or dilemnas at your command - *you* have to open that door, *you* have choose which character survives the finale.
+I'm going to discuss three computer games from across the ages that I feel are good examples of art in narrative design. What do I mean by art in narrative design? I don't believe there is one answer, but my answer is simply this: does the story and the game mechanics by which that story is relayed make you *feel* something? I don't mean joy at beating a boss or the satisfaction of a high score. I mean grief at a character's death, fear at turning that next corner, or vividly imagining yourself in your hero's plight. While a book or film might also make us feel those things, only a computer game puts those decisions or dilemnas at your direct command - *you* have to open that door, *only you* can avenge your homeworld.
 
-I'm intentionally including the *mechanism* of the story in my definition. There are many different genres of game and may different methods by which a player plays. But I feel that those methods, in and of themselves, can elevate and enrich a story far beyond words or graphics ever could. Indeed, the very act of *playing* the game involves you in the art in a way no other art can
+I'm intentionally including the *mechanism* of the story in my definition. There are many different genres of game and many different methods by which a player plays. But I feel that those methods, in and of themselves, can elevate and enrich a story far beyond words or graphics ever could. Indeed, the very act of *playing* the game involves you in the art in a way no other art can. So lets tie those mechanisms to the story of the games.
 
 The three games I want to discuss are:
 
