@@ -1,4 +1,4 @@
-This is an example of how I have written release notes in previous roles. Each team I have worked with had their own processes and preferences, this is only one example.
+<!-- This is an example of how I have written release notes in previous roles. Each team I have worked with had their own processes and preferences, this is only one example. -->
 
 # Release Version 2025.9.6
 
@@ -6,7 +6,7 @@ We are pleased to present the following updates in the latest release of our pro
 
 **API**
 
-We have added a brand-new Connector feature that will enable you to interact with a number of external REST APIs to extract data for use in our product.
+We have added a brand-new Connector module feature that will enable you to interact with a number of external REST APIs to extract data for use in our product.
 
 **User Interface**
 
@@ -20,7 +20,7 @@ The File Import process has been simplified and expanded to include more formats
 
 ### API
 
-Users can now enjoy our brand-new **Connector** feature. Using this feature you will be able to configure one or more calls to a range of external REST APIs, such as Google Analytics, to return data for use in our product. Only users with *Configurator* or *Administrator* privileges can configure the Connector, but users of all roles can access and interact with the data that is returned.
+Users can now enjoy our brand-new **Connector** module. Using this feature you will be able to configure one or more calls to a range of external REST APIs, such as Google Analytics, to return data for use in our product. Only users with *Configurator* or *Administrator* privileges can configure the Connector, but users of all roles can access and interact with the data that is returned.
 
 The Connector is currently compatible with the following APIs:
 
@@ -28,6 +28,7 @@ The Connector is currently compatible with the following APIs:
 - Facebook (AdInsights, Content Insights)
 - AWS S3
 - Microsoft SQL Server
+- Spotify
 
 The Connector will be expanded in future releases to access many more APIs, so watch this space!
 
@@ -63,4 +64,4 @@ We have resolved an issue where *Administrator* users occassionally could not as
 
 ## Hotfix 2025.9.6.1
 
-Resolved a potential security vulnerability when remote users accessed our product using a VPN. This issue was resolved before the vulnerability was discovered in the live build.
+Resolved a potential security vulnerability when remote users accessed our product using a VPN.
