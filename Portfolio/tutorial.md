@@ -61,4 +61,4 @@ By the end we will have our complete, albeit basic, website. Feel free to expand
 
 ## Making a Game
 
-## Next Steps
+## Next Steps and Further Expansion
