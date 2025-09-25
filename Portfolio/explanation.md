@@ -24,7 +24,7 @@ The Connector is currently compatible with the following APIs:
 
 The Connector module has a wide range of uses and you will see one in every dashboard. While each Connector module is specific to the dashboard it is used in, you will interact with it the same way throughout our product. We will guide you through the interface and some common examples in this topic.
 
-### Interfance and Appearance
+### Interface and Appearance
 
 The following screenshot shows the Connector module on a dashboard with all interface options active. The example below has been configured to return traffic statistics for our homepage from Google Analytics. As such, the module has only been configured to make a single GET request and there is no filtering applied.
 
@@ -34,17 +34,18 @@ The following screenshot shows the Connector module on a dashboard with all inte
 
 |Number|Item|Description|
 |---|---|---|
-|1|Module title|In this case, "Our Homepage Traffic Statistics"|
-|2|Search field|Enter a partial or complete string to filter data within the module.|
-|3|Method selector|Choose from GET, POST, and PUT.|
-|4|URL field|Enter the target address here.|
-|5|Parameters|Enter any required parameters here.|
-|6|Authorization|Enter any authentication details here.|
-|7|Headers|Enter header values here.|
-|8|Body|Enter body text here.||
-|9|Send button.|Click this to manually make a request to the API.|
-|10|Export|Select this to export the configuration file for this module. You can then import the configuration file using another Connector module to duplicate the configuration.|
-|11|Schedule|Use the drop-down menus to select a frequency. The module will run automatically according to the specified frequency.|
+|1|Module type|Connector module.|
+|2|Module title|In this case, "Our Homepage Traffic Statistics".|
+|3|Request field|Choose the request type, from GET, POST, and PUT. Enter the API URL. Use 'Send' to make the request.|
+|4|Export|Select this to export the configuration file for this module. You can then import the configuration file using another Connector module to duplicate the configuration.|
+|5|Schedule|Use the drop-down menus to select a frequency. The module will run automatically according to the specified frequency.|
+|6|Headers|Enter header values here.|
+|7|Parameters|Enter parameter values here.|
+|8|Authorization|Enter any authentication details here.|
+|9|Body|Enter body text here.|
+|10|Search field.|Enter a partial or complete string to filter data within the module.|
+|11|Response field|The JSON response from the server.|
+|12|Status|Status code of the response.|
 
 ## Connector Module Examples
 
@@ -60,11 +61,7 @@ Modules like this are very useful for reporting detailed, up-to-date information
 
 ### Spotify
 
-The following example shows a Connector module configured to return data about a specific artist from Spotify. Some of our users are involved in social media, so returning statistics about music artists is helpful when creating content for our audience.
-
-[screenshot]
-
-This specific example was created using the walkthrough described in the [Connector Module Worked Example](link), which uses the [Get Artist's Top Tracks](https://developer.spotify.com/documentation/web-api/reference/get-an-artists-top-tracks) endpoint.
+We have designed an example using a Connector module configured to return data about a specific artist from Spotify. The full example was built using the walkthrough described in the [Connector Module Worked Example](https://github.com/gltechwriting/gltechwritingrepo/blob/main/Portfolio/how-to-guide.md), which uses the [Get Artist's Top Tracks](https://developer.spotify.com/documentation/web-api/reference/get-an-artists-top-tracks) endpoint. Some of our users are involved in social media, so returning statistics about music artists is helpful when creating content for our audience.
 
 ## Useful Information
 
