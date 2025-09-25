@@ -4,7 +4,7 @@
 
 This tutorial will guide you through the process of creating a basic website from scratch. This is only one example and by no means comprehensive, but it will give you a good insight into the different processes and requirements involved.
 
-Building your own webpages is a hugely rewarding process and is a good way learn about coding and web development in general.
+Building your own webpages is a hugely rewarding process and is a good way to learn about coding and web development in general.
 
 ## Before We Get Started
 
@@ -21,7 +21,7 @@ We will provide the specific instructions needed to employ each of these element
 
 Some free resources you can use are:
 
-- [w3schools.com](https://www.w3schools.com/)
+- [w3schools](https://www.w3schools.com/)
 - [CodeAcademy](https://www.codecademy.com/)
 - [Khan Academy](https://www.khanacademy.org/computing/computer-programming)
 
@@ -55,10 +55,10 @@ We will follow this basic journey:
 
 By the end we will have our complete, albeit basic, website. Feel free to expand on this example and experiment however you like once you have finished.
 
-## 1 Lets Build some HTML
+## Lets Build some HTML
 
-## 2 Time to Style
+## Time to Style
 
-## 3 Making a Game
+## Making a Game
 
 ## Next Steps
