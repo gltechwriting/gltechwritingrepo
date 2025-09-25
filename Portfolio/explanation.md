@@ -43,7 +43,7 @@ The following screenshot shows the Connector module on a dashboard with all inte
 |7|Parameters|Enter parameter values here.|
 |8|Authorization|Enter any authentication details here.|
 |9|Body|Enter body text here.|
-|10|Search field.|Enter a partial or complete string to filter data within the module.|
+|10|Search field|Enter a partial or complete string to filter data within the module.|
 |11|Response field|The JSON response from the server.|
 |12|Status|Status code of the response.|
 
@@ -51,9 +51,7 @@ The following screenshot shows the Connector module on a dashboard with all inte
 
 ### Google Analytics
 
-The following example shows a Connector module configured to return site traffic data from Google Analytics. You can see the GET command and required parameters are defined to return data from the last seven days.
-
-We have also added two List modules to show detailed breakdowns of the day. One list module is organised by total volume while the second has been organised on a day-by-day analysis.
+The following example shows a Connector module configured to return site traffic data from Google Analytics.
 
 ![example](https://github.com/gltechwriting/gltechwritingrepo/blob/main/Portfolio/images/connectormoduleheaderexample.png)
 
