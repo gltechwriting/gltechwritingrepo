@@ -2,7 +2,7 @@
 
 # Using the Connector Module
 
-[screenshot]
+![moduleheader](https://github.com/gltechwriting/gltechwritingrepo/blob/main/Portfolio/images/connectormoduleheader.png)
 
 ## Overview
 
@@ -30,7 +30,7 @@ The following screenshot shows the Connector module on a dashboard with all inte
 
 **Note:** If you do not have the *Configurator* or *Administrator* user roles, all of the fields described below will be read only.
 
-[screenshot]
+![modulecallouts](https://github.com/gltechwriting/gltechwritingrepo/blob/main/Portfolio/images/connectormoduleheadercallouts.png)
 
 |Number|Item|Description|
 |---|---|---|
@@ -55,7 +55,7 @@ The following example shows a Connector module configured to return site traffic
 
 We have also added two List modules to show detailed breakdowns of the day. One list module is organised by total volume while the second has been organised on a day-by-day analysis.
 
-[screenshot]
+![example](https://github.com/gltechwriting/gltechwritingrepo/blob/main/Portfolio/images/connectormoduleheaderexample.png)
 
 Modules like this are very useful for reporting detailed, up-to-date information about traffic to our website. We are able to see in real-time the impact of product releases, news items, etc as they happen.
 
